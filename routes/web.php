@@ -9,6 +9,7 @@ Route::post('/contactUsPost', [HomeController::class, 'contactUsPost']);
 Route::get('/aboutUs', [HomeController::class, 'aboutUs']);
 Route::get('/services', [HomeController::class, 'services']);
 Route::get('/careers', [HomeController::class, 'careers']);
+Route::post('/careerFormPost', [HomeController::class, 'careerFormSubmit'])->name('submit.career');
 Route::get('/testimonials', [HomeController::class, 'testimonials']);
 Route::get('/blog', [HomeController::class, 'blog']);
 Route::get('/faqs', [HomeController::class, 'faq']);

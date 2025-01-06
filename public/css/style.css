@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /*===============COMMON==============*/
 * {
@@ -10,7 +10,7 @@
 body {
     font-size: 16px !important;
     font-weight: 200;
-    color: #83868C !important;
+    color: #83868c !important;
     background: #fff !important;
     font-family: "Poppins", sans-serif !important;
 }
@@ -31,7 +31,7 @@ h6 {
 }
 
 .bt-yellow {
-    background-color: #FFC600;
+    background-color: #ffc600;
     /* align-self: flex-start; */
     color: #333;
     padding: 16px 34px;
@@ -43,11 +43,11 @@ h6 {
 
 .bt-yellow:hover {
     color: #fff;
-    background: #279E64;
+    background: #279e64;
 }
 
 .bt-green {
-    background-color: #279E64;
+    background-color: #279e64;
     /* align-self: flex-start; */
     color: #fff;
     padding: 16px 34px;
@@ -59,19 +59,19 @@ h6 {
 
 .bt-green:hover {
     color: #333;
-    background: #FFC600;
+    background: #ffc600;
 }
 
 .btn-read-more {
     position: relative;
-    color: #13287D;
+    color: #13287d;
     /* align-self: flex-start; */
     font-weight: 700;
     text-decoration: none;
 }
 
 .btn-read-more:hover {
-    color: #13287D;
+    color: #13287d;
 }
 
 a.btn-read-more::before {
@@ -88,10 +88,9 @@ a.btn-read-more::before {
 }
 
 a.btn-read-more:hover::before {
-    background: #279E64;
-    border: 1px #279E64 solid;
+    background: #279e64;
+    border: 1px #279e64 solid;
     color: #fff;
-
 }
 
 .main-heading-section {
@@ -110,7 +109,7 @@ a.btn-read-more:hover::before {
 
 .main-heading {
     font-size: 45px;
-    color: #13287D;
+    color: #13287d;
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 0;
@@ -119,7 +118,7 @@ a.btn-read-more:hover::before {
 .sub-heading {
     font-weight: 700;
     font-size: 16px;
-    color: #279E64;
+    color: #279e64;
 }
 
 .row-100 {
@@ -149,14 +148,14 @@ a.btn-read-more:hover::before {
     justify-content: center;
     width: 100%;
     height: 597px;
-    background-image: url('/img/image 12.png');
+    background-image: url("/img/image 12.png");
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .intro-hero-section::before {
     content: "";
-    background: #13287D;
+    background: #13287d;
     opacity: 0.7;
     width: 100%;
     height: 100%;
@@ -206,12 +205,12 @@ a.btn-read-more:hover::before {
 
 .page-title-section .breadcrumb li a {
     text-decoration: none;
-    color: #FFC600;
+    color: #ffc600;
     transition: 0.3s ease;
 }
 
 .page-title-section .breadcrumb li a:hover {
-    color: #279E64;
+    color: #279e64;
 }
 
 .service-feature-card {
@@ -246,7 +245,7 @@ a.btn-read-more:hover::before {
 .service-feature-card .feature-icon {
     position: relative;
     color: #fff;
-    background: #279E64;
+    background: #279e64;
     width: 70px;
     height: 70px;
     font-size: 25px;
@@ -262,17 +261,16 @@ a.btn-read-more:hover::before {
     content: "";
     width: 70px;
     height: 70px;
-    background: #EEEFF2;
+    background: #eeeff2;
     position: absolute;
     border-radius: 4px;
     z-index: -1;
     top: -10px;
     left: -10px;
-
 }
 
 .service-feature-card .feature-title h3 {
-    color: #13287D;
+    color: #13287d;
     font-weight: 500;
 }
 
@@ -292,14 +290,13 @@ a.btn-read-more:hover::before {
 
 .aboutus-div-2 ul li span {
     font-size: 25px;
-    color: #279E64;
+    color: #279e64;
 }
 
 .aboutus-div-3 img {
     width: 100%;
     margin: 0 auto;
 }
-
 
 /*===========Column scheme==============*/
 
@@ -353,13 +350,12 @@ a.btn-read-more:hover::before {
 
 /*=============Background color scheme============*/
 .bg-yellow {
-    background: #FFC600;
+    background: #ffc600;
 }
 
 .bg-grey {
-    background: #EFF2F7;
+    background: #eff2f7;
 }
-
 
 /*===================Margin css================*/
 
@@ -1334,7 +1330,6 @@ a.btn-read-more:hover::before {
 
 /*=================END COMMON CSS===============*/
 
-
 /*===============Header css==================*/
 .top-banner {
     display: flex;
@@ -1361,17 +1356,17 @@ a.btn-read-more:hover::before {
     width: 40px;
     height: 40px;
     border-radius: 50px;
-    color: #13287D;
+    color: #13287d;
     font-weight: 600;
     font-size: 16px;
-    background-color: #EAEBEE;
+    background-color: #eaebee;
     text-align: center;
     margin-right: 5px;
     transition: 0.3s ease;
 }
 
 .social-icons li a:hover {
-    background: #279E64;
+    background: #279e64;
     color: #fff;
 }
 
@@ -1387,7 +1382,7 @@ a.btn-read-more:hover::before {
 }
 
 .top-banner .customer-support span {
-    color: #279E64;
+    color: #279e64;
     font-size: 24px;
     margin-right: 16px;
 }
@@ -1425,7 +1420,7 @@ a.btn-read-more:hover::before {
     height: 100%;
     display: flex;
     align-items: center;
-    color: #13287D;
+    color: #13287d;
     font-weight: 600;
     transition: 0.3s ease-in-out;
 }
@@ -1438,7 +1433,7 @@ a.btn-read-more:hover::before {
     content: "";
     position: absolute;
     height: 2px;
-    background: #13287D;
+    background: #13287d;
     left: 0;
     bottom: -8px;
     width: 0%;
@@ -1456,7 +1451,7 @@ a.btn-read-more:hover::before {
 
 #sidebarOpen {
     background: #ffff;
-    color: #13287D;
+    color: #13287d;
     border: none;
     padding: 10px;
     font-size: 20px;
@@ -1474,7 +1469,6 @@ a.btn-read-more:hover::before {
     background-color: #efefef;
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
     transition: 0.3s ease;
-
 }
 
 .header .sidebar-menu .sidebar-items {
@@ -1497,7 +1491,7 @@ a.btn-read-more:hover::before {
 .header .sidebar-menu .sidebar-items li a {
     width: 100%;
     padding: 10px;
-    color: #13287D;
+    color: #13287d;
     font-weight: 600;
     border-radius: 5px;
     transition: 0.3s ease;
@@ -1530,7 +1524,7 @@ a.btn-read-more:hover::before {
 
 .footer {
     padding: 96px 84px;
-    background: #0A1126;
+    background: #0a1126;
 }
 
 .footer-heading {
@@ -1544,7 +1538,7 @@ a.btn-read-more:hover::before {
 }
 
 .footer h4 span {
-    color: #279E64;
+    color: #279e64;
 }
 
 .footer ul {
@@ -1560,12 +1554,12 @@ a.btn-read-more:hover::before {
     position: relative;
     text-decoration: none;
     /* display: flex; */
-    color: #83868C;
+    color: #83868c;
     transition: 0.3s ease;
 }
 
 .footer ul li a:hover {
-    color: #279E64;
+    color: #279e64;
 }
 
 .footer ul li a::before {
@@ -1575,7 +1569,7 @@ a.btn-read-more:hover::before {
     left: 0;
     width: 0%;
     height: 2px;
-    background-color: #279E64;
+    background-color: #279e64;
     transition: 0.5s ease;
 }
 
@@ -1593,7 +1587,7 @@ a.btn-read-more:hover::before {
 /*=================BODY CSS =====================*/
 .hero-section {
     position: relative;
-    background: #13287D;
+    background: #13287d;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1621,20 +1615,17 @@ a.btn-read-more:hover::before {
     gap: 16px;
 }
 
-
 .hero-details .hero-heading-section .sub-heading img {
     width: 47px;
     height: 53px;
 }
 
-
 .hero-details .hero-heading-section .sub-heading p {
     margin: 0;
     text-transform: uppercase;
-    color: #FFC600;
+    color: #ffc600;
     font-weight: 700;
 }
-
 
 .hero-details .hero-heading-section .hero-heading {
     font-size: 70px;
@@ -1643,16 +1634,14 @@ a.btn-read-more:hover::before {
     margin: 0;
 }
 
-
 .hero-details .hero-heading-section .hero-description {
-    color: #B6B6B6;
+    color: #b6b6b6;
 }
 
 .hero-details .cta-section {
     display: flex;
     gap: 34px;
 }
-
 
 .horizontal-feature-section {
     padding-top: 96px;
@@ -1676,12 +1665,12 @@ a.btn-read-more:hover::before {
 
 .feature-tile-section h4 {
     font-size: 26px;
-    color: #13287D;
+    color: #13287d;
     font-weight: 700;
 }
 
 .legacy h1 {
-    color: #279E64;
+    color: #279e64;
     font-size: 80px;
     font-weight: 700;
     margin: 0;
@@ -1690,7 +1679,7 @@ a.btn-read-more:hover::before {
 .legacy h3 {
     font-size: 36px;
     font-weight: 700;
-    color: #13287D;
+    color: #13287d;
     margin: 0;
 }
 
@@ -1699,7 +1688,7 @@ a.btn-read-more:hover::before {
 }
 
 .category-details h4 {
-    color: #13287D;
+    color: #13287d;
     font-weight: 700;
     font-size: 26px;
 }
@@ -1715,7 +1704,6 @@ a.btn-read-more:hover::before {
     gap: 10px;
     justify-content: center;
 }
-
 
 .stat-img {
     width: 168px;
@@ -1755,7 +1743,7 @@ a.btn-read-more:hover::before {
 .quote-form-section {
     width: 100%;
     height: 100%;
-    background: #13287D;
+    background: #13287d;
 }
 
 .quote-form-section h4 {
@@ -1795,11 +1783,11 @@ a.btn-read-more:hover::before {
 .blog-container .single-blog .blog-details .blog-title {
     font-size: 26px;
     font-weight: 700;
-    color: #13287D;
+    color: #13287d;
 }
 
 .blog-container .single-blog .blog-details .blog-date span {
-    color: #13287D;
+    color: #13287d;
 }
 
 .blog-container .single-blog .blog-details .blog-date {
@@ -1824,7 +1812,7 @@ a.btn-read-more:hover::before {
 
 .navigation-buttons .nav-left:hover,
 .navigation-buttons .nav-right:hover {
-    background: #279E64;
+    background: #279e64;
     color: #ffff;
 }
 
@@ -1842,7 +1830,7 @@ a.btn-read-more:hover::before {
 }
 
 .client-title .client-name {
-    color: #13287D;
+    color: #13287d;
     font-weight: 700;
 }
 
@@ -1859,30 +1847,30 @@ a.btn-read-more:hover::before {
 
 .service-feature-card-1-icon {
     font-size: 35px;
-    color: #279E64;
+    color: #279e64;
 }
 
 .service-feature-card-1 .service-feature-card-1-heading {
     font-size: 26px;
     font-weight: 700;
-    color: #13287D;
+    color: #13287d;
 }
 
 .contact-details h3 span {
-    color: #279E64;
+    color: #279e64;
     font-size: 25px;
 }
 
 .contact-details h3 {
     font-size: 18px;
     font-weight: 700;
-    color: #13287D;
+    color: #13287d;
 }
 
 .contact-form h3 {
     font-size: 32px;
     font-weight: 700;
-    color: #13287D;
+    color: #13287d;
 }
 
 .contact-form textarea,
@@ -1895,8 +1883,72 @@ a.btn-read-more:hover::before {
     resize: none;
 }
 
-.message {
+.contact-form-sub-heading {
+    color: #13287d;
+    font-size: 24px;
+    position: relative;
+    font-weight: 600;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
 
+.contact-form-sub-heading::before {
+    content: "";
+    background: #279e64;
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    bottom: -10px;
+}
+/*==============career form Declaration checkbox custom css====*/
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+    position: relative;
+}
+
+.checkbox-container input[type="checkbox"]:checked {
+    background-color: #279e64;
+    border-color: #279e64;
+}
+
+.checkbox-container input[type="checkbox"]:checked::after {
+    content: "✔";
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.checkbox-container input[type="checkbox"]:focus,
+.checkbox-container input[type="checkbox"]:active,
+.checkbox-container input[type="checkbox"]:visited {
+    border: none;
+    outline: none;
+}
+
+.declaration-text {
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+}
+
+/*==============END=========*/
+.message {
     padding: 10px 10px;
     border: 1.5px #5bd75b solid;
     border-radius: 5px;
@@ -1909,7 +1961,7 @@ a.btn-read-more:hover::before {
 }
 
 .service-charges-card {
-    background: #EFF2F7;
+    background: #eff2f7;
     padding: 45px 30px;
     text-align: center;
     display: flex;
@@ -1921,17 +1973,17 @@ a.btn-read-more:hover::before {
 
 .service-charges-card .service-title h3 {
     font-weight: 700;
-    color: #13287D;
+    color: #13287d;
 }
 
 .service-charges-card .service-price-details h1 {
-    color: #13287D;
+    color: #13287d;
     font-weight: 700;
     font-size: 48px;
 }
 
 .service-charges-card .service-price-details a {
-    color: #13287D;
+    color: #13287d;
     font-weight: 700;
     font-size: 16px;
 }
@@ -1948,12 +2000,12 @@ a.btn-read-more:hover::before {
 
 .service-type-toggle-buttons {
     border-radius: 49px;
-    background: #279E64;
+    background: #279e64;
     padding: 6px;
 }
 
 .service-type-toggle-buttons .btn-service-regular {
-    background: #FFC600;
+    background: #ffc600;
     width: 134px;
     height: 40px;
     text-align: center;
@@ -1964,7 +2016,7 @@ a.btn-read-more:hover::before {
 }
 
 .service-type-toggle-buttons .btn-service-premium {
-    background: #279E64;
+    background: #279e64;
     width: 134px;
     height: 40px;
     text-align: center;
@@ -1980,7 +2032,7 @@ a.btn-read-more:hover::before {
 }
 
 .individual-faq-div .faq-heading h3 {
-    color: #13287D;
+    color: #13287d;
     font-weight: 700;
     font-size: 22px;
 }
@@ -1989,21 +2041,17 @@ a.btn-read-more:hover::before {
     width: 30px;
     height: 30px;
     text-align: center;
-    background: #279E64;
+    background: #279e64;
     border: none;
     color: #fff;
 }
 
 /*====================END BODY CSS======================*/
 
-
-
 /*=================Media Screen====================*/
 
 /* Tablet */
 @media (max-width: 1057px) {
-
-
     .top-banner {
         display: inline-flex;
         flex-direction: column;
@@ -2012,7 +2060,6 @@ a.btn-read-more:hover::before {
         height: auto;
         width: 100%;
     }
-
 
     .header .logo img {
         width: 80%;
@@ -2029,7 +2076,6 @@ a.btn-read-more:hover::before {
     .hero-details .hero-heading-section .hero-heading {
         font-size: 50px;
     }
-
 }
 
 @media (max-width: 768px) {
@@ -2056,7 +2102,6 @@ a.btn-read-more:hover::before {
 
 /* Mobile */
 @media (max-width: 520px) {
-
     .header,
     .footer {
         padding: 20px 36px !important;
@@ -2071,12 +2116,11 @@ a.btn-read-more:hover::before {
         width: 50%;
     }
 
-    .header>.right-section>a.bg-yellow {
+    .header > .right-section > a.bg-yellow {
         display: none;
     }
 
     .hero-details .cta-section {
         flex-direction: column;
     }
-
 }
